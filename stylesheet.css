@@ -579,11 +579,11 @@ body {
 /*after music*/
 .bulb-glow-yellow-after {
 	background-image: url('bulb_yellow.png');
-	-webkit-animation: bulb_glow_yellow_after linear 1s infinite;
-	-moz-animation: bulb_glow_yellow_after linear 1s infinite;
-	-o-animation: bulb_glow_yellow_after linear 1s infinite;
-	-ms-animation: bulb_glow_yellow_after linear 1s infinite;
-	animation: bulb_glow_yellow_after linear 1s infinite;
+	-webkit-animation: bulb_glow_yellow_after linear 3s infinite;
+	-moz-animation: bulb_glow_yellow_after linear 3s infinite;
+	-o-animation: bulb_glow_yellow_after linear 3s infinite;
+	-ms-animation: bulb_glow_yellow_after linear 3s infinite;
+	animation: bulb_glow_yellow_after linear 3s infinite;
 }
 
 @-webkit-keyframes bulb_glow_yellow_after {
@@ -644,11 +644,11 @@ body {
 
 .bulb-glow-red-after {
 	background-image: url('bulb_red.png');
-	-webkit-animation: bulb_glow_red_after linear 1.2s infinite;
-	-moz-animation: bulb_glow_red_after linear 1.2s infinite;
-	-o-animation: bulb_glow_red_after linear 1.2s infinite;
+	-webkit-animation: bulb_glow_red_after linear 3.2s infinite;
+	-moz-animation: bulb_glow_red_after linear 3.2s infinite;
+	-o-animation: bulb_glow_red_after linear 3.2s infinite;
 	-ms-animation: bulb_glow_red_after linear 1.2s infinite;
-	animation: bulb_glow_red_after linear 1.2s infinite;
+	animation: bulb_glow_red_after linear 3.2s infinite;
 }
 
 @-webkit-keyframes bulb_glow_red_after {
@@ -709,11 +709,11 @@ body {
 
 .bulb-glow-blue-after {
 	background-image: url('bulb_blue.png');
-	-webkit-animation: bulb_glow_blue_after linear 1.4s infinite;
-	-moz-animation: bulb_glow_blue_after linear 1.4s infinite;
-	-o-animation: bulb_glow_blue_after linear 1.4s infinite;
-	-ms-animation: bulb_glow_blue_after linear 1.4s infinite;
-	animation: bulb_glow_blue_after linear 1.4s infinite;
+	-webkit-animation: bulb_glow_blue_after linear 3.4s infinite;
+	-moz-animation: bulb_glow_blue_after linear 3.4s infinite;
+	-o-animation: bulb_glow_blue_after linear 3.4s infinite;
+	-ms-animation: bulb_glow_blue_after linear 3.4s infinite;
+	animation: bulb_glow_blue_after linear 3.4s infinite;
 }
 
 @-webkit-keyframes bulb_glow_blue_after {
@@ -773,11 +773,11 @@ body {
 }
 .bulb-glow-green-after {
 	background-image: url('bulb_green.png');
-	-webkit-animation: bulb_glow_green_after linear 1.8s infinite;
-	-moz-animation: bulb_glow_green_after linear 1.8s infinite;
-	-o-animation: bulb_glow_green_after linear 1.8s infinite;
-	-ms-animation: bulb_glow_green_after linear 1.8s infinite;
-	animation: bulb_glow_green_after linear 1.8s infinite;
+	-webkit-animation: bulb_glow_green_after linear 3.8s infinite;
+	-moz-animation: bulb_glow_green_after linear 3.8s infinite;
+	-o-animation: bulb_glow_green_after linear 3.8s infinite;
+	-ms-animation: bulb_glow_green_after linear 3.8s infinite;
+	animation: bulb_glow_green_after linear 3.8s infinite;
 }
 
 @-webkit-keyframes bulb_glow_green_after {
@@ -838,11 +838,11 @@ body {
 }
 .bulb-glow-pink-after {
 	background-image: url('bulb_pink.png');
-	-webkit-animation: bulb_glow_pink_after linear 2s infinite;
-	-moz-animation: bulb_glow_pink_after linear 2s infinite;
-	-o-animation: bulb_glow_pink_after linear 2s infinite;
-	-ms-animation: bulb_glow_pink_after linear 2s infinite;
-	animation: bulb_glow_pink_after linear 2s infinite;
+	-webkit-animation: bulb_glow_pink_after linear 4s infinite;
+	-moz-animation: bulb_glow_pink_after linear 4s infinite;
+	-o-animation: bulb_glow_pink_after linear 4s infinite;
+	-ms-animation: bulb_glow_pink_after linear 4s infinite;
+	animation: bulb_glow_pink_after linear 4s infinite;
 }
 
 @-webkit-keyframes bulb_glow_pink_after {
@@ -902,11 +902,11 @@ body {
 }
 .bulb-glow-orange-after {
 	background-image: url('bulb_orange.png');
-	-webkit-animation: bulb_glow_orange_after linear 2.2s infinite;
-	-moz-animation: bulb_glow_orange_after linear 2.2s infinite;
-	-o-animation: bulb_glow_orange_after linear 2.2s infinite;
-	-ms-animation: bulb_glow_orange_after linear 2.2s infinite;
-	animation: bulb_glow_orange_after linear 2.2s infinite;
+	-webkit-animation: bulb_glow_orange_after linear 4.2s infinite;
+	-moz-animation: bulb_glow_orange_after linear 4.2s infinite;
+	-o-animation: bulb_glow_orange_after linear 4.2s infinite;
+	-ms-animation: bulb_glow_orange_after linear 4.2s infinite;
+	animation: bulb_glow_orange_after linear 4.2s infinite;
 }
 
 @-webkit-keyframes bulb_glow_orange_after {
@@ -1277,7 +1277,7 @@ audio {
 .message p {
 	font-family: 'Signika', sans-serif;
 	font-size: 30px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
