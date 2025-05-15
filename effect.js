@@ -173,30 +173,12 @@ $('document').ready(function(){
 		var i;
 
 		function msgLoop (i) {
-			$("p:nth-child("+i+")").fadeOut('slow').delay(1500).promise().done(function(){
+			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(2000);
+			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					$('.message').hide();
-					$('#image-sequence').show();
-					let j = 0;
-					const totalImages = 12;
-					function imageLoop(j) {
-						if(j > 0) {
-							$('.image-message').eq(j-1).fadeOut('slow');
-						}
-						if(j < totalImages) {
-							$('.image-message').eq(j).fadeIn('slow').delay(2000).promise().done(function(){
-								imageLoop(j+1);
-							});
-						} else {
-							$('#image-sequence').fadeOut('slow').promise().done(function(){
-								$('.cake').fadeIn('fast');
-							});
-						}
-					}
-					imageLoop(j);
+					$('.cake').fadeIn('fast');
 				});
 				
 			}
@@ -212,8 +194,3 @@ $('document').ready(function(){
 		
 	});
 });
-
-
-
-
-//alert('hello');
